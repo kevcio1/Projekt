@@ -195,3 +195,18 @@ a:hover {
         .btn:hover {
             background: #0056b3;
         }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .map-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }

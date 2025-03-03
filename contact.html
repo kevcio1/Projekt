@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo"><img src="MAXPUMP.jpg" alt="" height="30px" width="30px"> SupleShop</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Strona Główna</a></li>
+                    <li><a href="contact.html"">Contact</a></li>
+                    <li><a href="info.html">O Nas</a></li>
+                    <li><a href="#">Znajdź Nas Tutaj</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="notification" id="notification">Wiadomość została pomyślnie wysłana!</div>
+
+    <div class="container">
+        <h2>Skontaktuj się z nami</h2>
+        <form id="contactForm">
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" placeholder="Twoje imię" required>
+    
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Twój adres e-mail" required>
+    
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" placeholder="Napisz swoją wiadomość..." required></textarea>
+    
+            <button type="submit" class="btn">Wyślij</button>
+        </form>
+    </div>
+
+<script src="contact.js"></script></body>
+</html>
+
+
